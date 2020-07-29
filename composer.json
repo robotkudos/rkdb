@@ -1,0 +1,11 @@
+{
+    "name": "robotkudos/krdb",
+    "description": "Add Options DB functionality",
+    "authors": [
+        {
+            "name": "Nima Hejazi",
+            "email": "nima@robotkudos.com"
+        }
+    ],
+    "require": {}
+}
