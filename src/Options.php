@@ -27,6 +27,15 @@ class Options
         return $this->getValueByKey($this->options, $key, $default);
     }
 
+    /**
+     * Reload the data from the database. Good for when the data has been changed
+     * since last fetch.
+     * 
+     */
+    public function reload() {
+        $this->options = Option::all();
+    }
+
      /**
      * Add or update a value to the Options table.
      * 
