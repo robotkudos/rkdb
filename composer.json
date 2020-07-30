@@ -1,6 +1,7 @@
 {
     "name": "robotkudos/rkdb",
     "description": "Add Options DB functionality",
+    "version": "0.2.0",
     "authors": [
         {
             "name": "Nima Hejazi",
@@ -12,5 +13,6 @@
         "psr-4": {
             "RobotKudos\\RKDB\\": "src/"
         }
-    } 
+    },
+    "license": "MIT"
 }
